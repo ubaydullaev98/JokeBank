@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="-2104.3478260869565" y="258.48214285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--Joke Definition View Controller-->
         <scene sceneID="njx-xM-4qk">
             <objects>
-                <viewController id="owq-9T-Wvz" sceneMemberID="viewController">
+                <viewController id="owq-9T-Wvz" customClass="JokeDefinitionViewController" customModule="JokeBank" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wS4-Qf-3da">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

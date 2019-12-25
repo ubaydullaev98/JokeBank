@@ -37,5 +37,14 @@ class JokeTableViewController: UITableViewController {
         
         performSegue(withIdentifier: "moveToJokeDefinition", sender: jokes[indexPath.row])
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if let jokeVC = segue.destination as? JokeDefinitionViewController{
+            if let joke = sender as? String{
+                jokeVC.joke = joke
+            }
+        }
+    }
+    
 
 }

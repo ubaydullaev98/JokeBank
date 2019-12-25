@@ -13,6 +13,7 @@
 		BE064A0F23B327BE00AE7266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE064A0E23B327BE00AE7266 /* Assets.xcassets */; };
 		BE064A1223B327BE00AE7266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE064A1023B327BE00AE7266 /* LaunchScreen.storyboard */; };
 		BE064A1A23B32BF100AE7266 /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE064A1923B32BF100AE7266 /* JokeTableViewController.swift */; };
+		BE8ED5DC23B3405500805F94 /* JokeDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8ED5DB23B3405500805F94 /* JokeDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BE064A1123B327BE00AE7266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE064A1323B327BE00AE7266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE064A1923B32BF100AE7266 /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		BE8ED5DB23B3405500805F94 /* JokeDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BE064A0523B327BE00AE7266 /* AppDelegate.swift */,
 				BE064A1923B32BF100AE7266 /* JokeTableViewController.swift */,
+				BE8ED5DB23B3405500805F94 /* JokeDefinitionViewController.swift */,
 				BE064A0723B327BE00AE7266 /* SceneDelegate.swift */,
 				BE064A0B23B327BE00AE7266 /* Main.storyboard */,
 				BE064A0E23B327BE00AE7266 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				BE064A0623B327BE00AE7266 /* AppDelegate.swift in Sources */,
 				BE064A0823B327BE00AE7266 /* SceneDelegate.swift in Sources */,
+				BE8ED5DC23B3405500805F94 /* JokeDefinitionViewController.swift in Sources */,
 				BE064A1A23B32BF100AE7266 /* JokeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
