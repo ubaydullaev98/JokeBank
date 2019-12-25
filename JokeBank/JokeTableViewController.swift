@@ -9,6 +9,8 @@
 import UIKit
 
 class JokeTableViewController: UITableViewController {
+    
+    var jokes = ["Chicken", "Walk into a bar...", "Olive", "Racer"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,13 +19,17 @@ class JokeTableViewController: UITableViewController {
 
     //how many?
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return jokes.count
     }
 
     //what goes inside?
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        //this is called everytime when the cell is created
+        //IndexPath.row
+        
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Hello World"
+        cell.textLabel?.text = jokes[indexPath.row]
         return cell
     }
     
